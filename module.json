@@ -1,0 +1,16 @@
+{
+    "name": "PickupShipping",
+    "alias": "pickupshipping",
+    "description": "Local pickup shipping module for in-store or warehouse pickup",
+    "keywords": ["shipping", "pickup", "local pickup", "store pickup"],
+    "priority": 0,
+    "providers": [
+        "Modules\\PickupShipping\\Providers\\PickupShippingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "type": "shipping",
+    "version": "1.0.0",
+    "is_core": false
+}

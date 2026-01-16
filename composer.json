@@ -1,0 +1,25 @@
+{
+    "name": "cartismo/pickup-shipping",
+    "description": "Local pickup shipping module for Cartismo",
+    "type": "cartismo-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Cartismo",
+            "email": "support@cartismo.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\PickupShipping\\Providers\\PickupShippingServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PickupShipping\\": ""
+        }
+    }
+}
